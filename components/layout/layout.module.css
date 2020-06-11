@@ -1,0 +1,41 @@
+.container {
+    max-width: 50rem;
+    padding: 0 1rem;
+    margin: 2rem auto 6rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.headerImage {
+    width: 6rem;
+    height: 6rem;
+}
+
+.headerHomeImage {
+    width: 8rem;
+    height: 8rem;
+}
+
+.backToHome {
+    margin: 3rem 0 0;
+}
+
+.main {
+    text-align: center;
+}
+
+.imageTitle {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.title {
+    color: inherit;
+    display: flex;
+}

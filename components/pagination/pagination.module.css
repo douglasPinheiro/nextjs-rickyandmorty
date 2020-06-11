@@ -1,0 +1,34 @@
+.container {
+    margin-top: 50px;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.item {
+    cursor: pointer;
+    min-width: 40px;
+    border-left: 1px solid #eababa;
+    transition: background-color 500ms;
+    padding: 5px 8px;
+    color: black;
+}
+
+.item:first-child {
+    border-left: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.item:last-child {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.item:hover {
+    background-color: #77a278;
+    color: white;
+    text-decoration: none;
+}

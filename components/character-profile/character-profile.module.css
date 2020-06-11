@@ -1,0 +1,35 @@
+.container {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.image {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.info {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.infodata {
+    margin: 3px 0px;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+
+    .image {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 12px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+  }

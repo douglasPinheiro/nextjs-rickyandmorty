@@ -1,0 +1,78 @@
+.card {
+    width: 190px;
+    border-radius: 5px;
+    margin: 12px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    font-size: 13px;
+    transition: 0.4s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-12px);
+    cursor: pointer;
+}
+
+.cardContainer {
+    background-color: white;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card:hover .cardContainer {
+    filter: brightness(0.5);
+}
+
+.cardname {
+    display: flex;
+}
+
+.cardimage {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 190px;
+    height: 190px;
+    transition:filter 500ms;
+}
+
+.status {
+    display: flex;
+}
+
+.red {
+    margin: 6px 5px 5px 0px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.green {
+    margin: 6px 5px 5px 0px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.seeMore {
+    position: absolute;
+    top: 110px;
+    width: 190px;
+    font-size: 25px;
+    color: white;
+    background: #423838;
+    display: none;
+    transition:display 500ms;
+}
+
+.card:hover .seeMore {
+    display: block;
+    text-decoration: none;
+}
+
+.card:hover .cardimage {
+    filter: brightness(0.5);
+}
